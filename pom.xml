@@ -29,25 +29,23 @@
         </dependency>
 
         <!-- JPA / Hibernate -->
-     <!--
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-data-jpa</artifactId>
         </dependency>
--->
+
         <!-- Thymeleaf (optional for HTML views) -->
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-thymeleaf</artifactId>
         </dependency>
 
-        <!-- MySQL Driver (for Spring Boot 3 use new driver)
+        <!-- MySQL Driver (for Spring Boot 3 use new driver) -->
         <dependency>
             <groupId>mysql</groupId>
             <artifactId>mysql-connector-java</artifactId>
             <version>5.1.49</version>
         </dependency>
-        -->
         <!-- Firebase Admin SDK -->
         <dependency>
             <groupId>com.google.firebase</groupId>
@@ -92,13 +90,12 @@
             <artifactId>json</artifactId>
             <version>20240303</version>
         </dependency>
-     <!--
         <dependency>
             <groupId>com.mysql</groupId>
             <artifactId>mysql-connector-j</artifactId>
             <scope>runtime</scope>
         </dependency>
-        -->
+
         <dependency>
             <groupId>com.google.cloud</groupId>
             <artifactId>google-cloud-firestore</artifactId>
