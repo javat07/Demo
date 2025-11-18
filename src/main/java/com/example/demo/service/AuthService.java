@@ -51,7 +51,7 @@ public class AuthService {
         System.out.println("STEP 4: Firestore write complete!");
 
         // 3. MySQL save
-        System.out.println("STEP 5: Saving to MySQL...");
+        //System.out.println("STEP 5: Saving to MySQL...");
 
         User user = new User();
         user.setUid(uid);
@@ -59,7 +59,7 @@ public class AuthService {
         user.setEmail(email);
         user.setPassword(password);
 
-        userRepository.save(user);
+        //userRepository.save(user);
 
         System.out.println("STEP 6: MySQL save complete!");
 
